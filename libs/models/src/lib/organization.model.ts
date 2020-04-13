@@ -3,6 +3,7 @@ import { Tenant } from './tenant.model';
 
 export interface Organization extends IBaseEntityModel {
 	name: string;
+	profile_link: string;
 	valueDate?: Date;
 	totalEmployees?: number;
 	status?: string;
@@ -33,6 +34,7 @@ export interface Organization extends IBaseEntityModel {
 
 export interface OrganizationFindInput extends IBaseEntityModel {
 	name?: string;
+	profile_link?: string;
 	valueDate?: Date;
 	imageUrl?: string;
 	currency?: CurrenciesEnum;
@@ -41,6 +43,7 @@ export interface OrganizationFindInput extends IBaseEntityModel {
 
 export interface OrganizationCreateInput {
 	name: string;
+	profile_link: string;
 	valueDate?: Date;
 	imageUrl: string;
 	currency: CurrenciesEnum;
@@ -66,6 +69,7 @@ export interface OrganizationCreateInput {
 export enum OrganizationSelectInput {
 	id = 'id',
 	name = 'name',
+	profile_link = 'profile_link',
 	valueDate = 'valueDate',
 	imageUrl = 'imageUrl',
 	currency = 'currency',

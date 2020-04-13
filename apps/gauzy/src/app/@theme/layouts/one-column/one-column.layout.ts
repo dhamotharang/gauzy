@@ -69,6 +69,8 @@ export class OneColumnLayoutComponent implements OnInit, AfterViewInit {
 
 	private async loadUserData() {
 		const id = this.store.userId;
+		if (!id) return;
+
 		this.user = await this.usersService.getMe([
 			'role',
 			'role.rolePermissions'
