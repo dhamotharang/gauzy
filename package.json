@@ -271,7 +271,7 @@
 		"protractor": "^5.4.2",
 		"rimraf": "^3.0.0",
 		"rxjs-tslint": "0.1.5",
-		"semantic-release": "^15.13.24",
+		"semantic-release": "^17.2.3",
 		"snyk": "^1.200.1",
 		"stylelint": "^10.1.0",
 		"ts-jest": "^24.0.2",
