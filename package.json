@@ -186,7 +186,7 @@
 		"nodemailer-handlebars": "^1.0.0",
 		"normalize.css": "^8.0.1",
 		"pace-js": "^1.0.2",
-		"pug": "^2.0.4",
+		"pug": "^3.0.1",
 		"reflect-metadata": "^0.1.13",
 		"roboto-fontface": "^0.10.0",
 		"rxjs": "^6.5.2",
